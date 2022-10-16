@@ -32,14 +32,14 @@
     flex-direction: column;
     width: 90%;
     height: 100%;
-    padding: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
     align-items:center
 }
 .child-container-a{
-  /* flex-direction: column; */
   display: flex; 
-  margin-left: 50px;
-  justify-content: space-between;
+  /* margin-left: 50px; */
+  justify-content: space-around;
   align-items: center;
   padding: 20px;
 }
@@ -64,11 +64,11 @@
     font-weight: 400;
 }
 .button-div{
-    /* height: 60px; */
+    height: 60px;
     width: 100%;
     margin-top: 150px;
     align-items: center;
-    
+    display: grid;
 }
 .container-div{
     display: flex;
@@ -76,6 +76,12 @@
     flex-direction: row;
     /* margin: 10px; */
     border: 2px solid white;
+}
+.container-div-child2{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
 }
 .container-div-child1{
     display: flex;
@@ -98,10 +104,26 @@
     font-size: 28px;
     width: 50%;
     padding: 10px;
+    /* display: flex; */
   }
 .span2{
     width: 2px;
     background-color: white;
     height: 500px;
     /* margin-top: -20px; */
+}
+.pie-div{
+    margin-inline: 50px;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.btn-tenure{
+    background-color: black;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    padding-inline-start: 10px;
+    margin-inline: 10px;
 }
